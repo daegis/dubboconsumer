@@ -31,9 +31,9 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.spring.boot</groupId>
+            <groupId>com.alibaba.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>2.0.0</version>
+            <version>0.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.zookeeper</groupId>

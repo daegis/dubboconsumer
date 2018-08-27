@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class TestController {
 
-    @Reference
+    @Reference(check = false, retries = 0)
     private TestApi testApi;
 
     @GetMapping("/time")
